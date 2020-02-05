@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewContoller">
+   <children>
+      <TextField fx:id="valor1" layoutX="41.0" layoutY="84.0" promptText="Primeiro número" />
+      <TextField fx:id="valor2" layoutX="41.0" layoutY="138.0" promptText="Segundo número" />
+      <Label layoutX="41.0" layoutY="40.0" text="Calculadora de soma!">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btCalcular" layoutX="41.0" layoutY="191.0" mnemonicParsing="false" onAction="#onBtTestAction" text="Calcular" />
+      <Label layoutX="41.0" layoutY="240.0" text="Resultado:" />
+      <Label fx:id="lbResultado" layoutX="102.0" layoutY="240.0" />
+   </children>
+</AnchorPane>
